@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "home-appliances",
+      "name": "Refrigerator",
+      "description": "A high-quality refrigerator with a spacious interior.",
+      "price": 499.99,
+      "image": "/images/refrigerator.jpg"
+    },
+    {
+      "id": 2,
+      "category": "mens-wardrobe",
+      "name": "Men's Suit",
+      "description": "A stylish men's suit perfect for formal occasions.",
+      "price": 199.99,
+      "image": "/images/mens-suit.jpg"
+    },
+    {
+      "id": 3,
+      "category": "womens-wardrobe",
+      "name": "Women's Dress",
+      "description": "An elegant dress suitable for various events.",
+      "price": 149.99,
+      "image": "/images/womens-dress.jpg"
+    },
+    {
+      "id": 4,
+      "category": "office-equipment",
+      "name": "Office Chair",
+      "description": "A comfortable office chair with ergonomic support.",
+      "price": 89.99,
+      "image": "/images/office-chair.jpg"
+    },
+    {
+      "id": 5,
+      "category": "automobiles",
+      "name": "Sedan Car",
+      "description": "A reliable sedan car with great fuel efficiency.",
+      "price": 19999.99,
+      "image": "/images/sedan-car.jpg"
+    },
+    {
+      "id": 6,
+      "category": "phones-telecom",
+      "name": "Smartphone",
+      "description": "A modern smartphone with the latest features.",
+      "price": 699.99,
+      "image": "/images/smartphone.jpg"
+    }
+  ]
+}

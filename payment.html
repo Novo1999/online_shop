@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Payment Page</h1>
+    </header>
+    <main>
+      <form id="payment-form">
+        <div>
+          <label for="card-number">Card Number:</label>
+          <input type="text" id="card-number" name="card-number" required />
+        </div>
+        <button class="submit" type="submit">Pay Now</button>
+      </form>
+      <p id="payment-status"></p>
+    </main>
+    <footer>
+      <p>&copy; 2024 Online Shop Management System</p>
+    </footer>
+    <script>
+      document
+        .getElementById('payment-form')
+        .addEventListener('submit', function (event) {
+          event.preventDefault()
+          document.getElementById('payment-status').textContent =
+            'Payment Successful'
+          document.querySelector('.submit').style.display = 'none'
+          setTimeout(() => {
+            document.getElementById('payment-status').textContent = ''
+
+            document.querySelector('.submit').style.display = 'block'
+
+            window.open('index.html', '_self')
+          }, 2000)
+        })
+    </script>
+  </body>
+</html>
